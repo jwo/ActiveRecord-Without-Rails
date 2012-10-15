@@ -1,0 +1,6 @@
+host: 'localhost'
+adapter: 'postgresql'
+database: 'ar-no-rails'
+username: 'jwo' 
+encoding: 'utf8'
+pool: 5
