@@ -14,6 +14,15 @@ tasks you can do:
   `rails db:migrate`
 * When you create a migration, it should inherit from
   `ActiveRecord::Migration[5.2]`
+  
+## Customizing path to migrations
+
+The Rakefile expects you to have your migrations in `db/migrat4`, but if you want in a different location, edit [it](https://github.com/jwo/ActiveRecord-Without-Rails/blob/master/Rakefile#L14):
+
+```
+#... snip
+ActiveRecord::Migrator.migrate("lib/db/migrations/")
+```
 
 ## Prove that it works:
 
