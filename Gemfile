@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "activerecord", "~>5.2.0"
+gem "activerecord", "~>6.1.7"
 gem "pg", "~>1.0.0"
